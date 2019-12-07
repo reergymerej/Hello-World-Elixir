@@ -1,5 +1,9 @@
-%{"earmark": {:hex, :earmark, "0.1.10"},
-  "ex_doc": {:hex, :ex_doc, "0.6.1"},
-  "inch_ex": {:hex, :inch_ex, "0.4.0-dev"},
+%{
+  "bunt": {:hex, :bunt, "0.2.0", "951c6e801e8b1d2cbe58ebbd3e616a869061ddadcc4863d0a2182541acae9a38", [:mix], [], "hexpm"},
+  "earmark": {:hex, :earmark, "0.1.10", "9e96e61f20fad2e32084ff87e53318397b674a3957ee24b0af18489577e024f1", [:mix], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.6.1", "4b722f73acb92be541376fd7fa1f33393bb04199dc11a585370aad584a4a3f8b", [:mix], [], "hexpm"},
+  "inch_ex": {:hex, :inch_ex, "2.0.0", "24268a9284a1751f2ceda569cd978e1fa394c977c45c331bb52a405de544f4de", [:mix], [{:bunt, "~> 0.2", [hex: :bunt, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
+  "jason": {:hex, :jason, "1.1.2", "b03dedea67a99223a2eaf9f1264ce37154564de899fd3d8b9a21b1a6fd64afe7", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
   "json": {:hex, :json, "0.3.2"},
-  "poison": {:hex, :poison, "1.4.0"}}
+  "poison": {:hex, :poison, "1.4.0", "cd5afb9db7f0d19487572fa28185b6d4de647f14235746824e77b3139b79b725", [:mix], [], "hexpm"},
+}
